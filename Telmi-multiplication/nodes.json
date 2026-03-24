@@ -1,0 +1,33 @@
+{
+  "startAction": { "action": "a_menu", "index": 0 },
+  "stages": {
+    "s_m0": { "audio": "m0.mp3", "ok": { "action": "a_e0", "index": 0 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": false } },
+    "s_m1": { "audio": "m1.mp3", "ok": { "action": "a_e1", "index": 0 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": false } },
+    "s_m2": { "audio": "m2.mp3", "ok": { "action": "a_e2", "index": 0 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": false } },
+    "s_m3": { "audio": "m3.mp3", "ok": { "action": "a_e3", "index": 0 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": false } },
+    "s_m4": { "audio": "m4.mp3", "ok": { "action": "a_e4", "index": 0 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": false } },
+    "s_m5": { "audio": "m5.mp3", "ok": { "action": "a_e5", "index": 0 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": false } },
+    "s_m6": { "audio": "m6.mp3", "ok": { "action": "a_e6", "index": 0 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": false } },
+    "s_m7": { "audio": "m7.mp3", "ok": { "action": "a_e7", "index": 0 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": false } },
+    "s_m8": { "audio": "m8.mp3", "ok": { "action": "a_e8", "index": 0 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": false } },
+    "s_m9": { "audio": "m9.mp3", "ok": { "action": "a_e9", "index": 0 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": false } },
+    "s_m10": { "audio": "m10.mp3", "ok": { "action": "a_e10", "index": 0 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": false } },
+    "s_l0": { "audio": "l0.mp3", "ok": { "action": "a_menu", "index": 0 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": true } },
+    "s_l1": { "audio": "l1.mp3", "ok": { "action": "a_menu", "index": 1 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": true } },
+    "s_l2": { "audio": "l2.mp3", "ok": { "action": "a_menu", "index": 2 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": true } },
+    "s_l3": { "audio": "l3.mp3", "ok": { "action": "a_menu", "index": 3 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": true } },
+    "s_l4": { "audio": "l4.mp3", "ok": { "action": "a_menu", "index": 4 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": true } },
+    "s_l5": { "audio": "l5.mp3", "ok": { "action": "a_menu", "index": 5 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": true } },
+    "s_l6": { "audio": "l6.mp3", "ok": { "action": "a_menu", "index": 6 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": true } },
+    "s_l7": { "audio": "l7.mp3", "ok": { "action": "a_menu", "index": 7 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": true } },
+    "s_l8": { "audio": "l8.mp3", "ok": { "action": "a_menu", "index": 8 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": true } },
+    "s_l9": { "audio": "l9.mp3", "ok": { "action": "a_menu", "index": 9 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": true } },
+    "s_l10": { "audio": "l10.mp3", "ok": { "action": "a_menu", "index": 10 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": true, "autoplay": true } },
+    "backStage": { "audio": "back.mp3", "ok": { "action": "a_menu", "index": 0 }, "home": { "action": "backAction", "index": 0 }, "control": { "ok": true, "home": false, "autoplay": true } }
+  },
+  "actions": {
+    "a_menu": [ {"stage": "s_m0"}, {"stage": "s_m1"}, {"stage": "s_m2"}, {"stage": "s_m3"}, {"stage": "s_m4"}, {"stage": "s_m5"}, {"stage": "s_m6"}, {"stage": "s_m7"}, {"stage": "s_m8"}, {"stage": "s_m9"}, {"stage": "s_m10"} ],
+    "a_e0": [{"stage": "s_l0"}], "a_e1": [{"stage": "s_l1"}], "a_e2": [{"stage": "s_l2"}], "a_e3": [{"stage": "s_l3"}], "a_e4": [{"stage": "s_l4"}], "a_e5": [{"stage": "s_l5"}], "a_e6": [{"stage": "s_l6"}], "a_e7": [{"stage": "s_l7"}], "a_e8": [{"stage": "s_l8"}], "a_e9": [{"stage": "s_l9"}], "a_e10": [{"stage": "s_l10"}],
+    "backAction": [{"stage": "backStage"}]
+  }
+}
